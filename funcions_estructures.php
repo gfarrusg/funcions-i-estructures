@@ -19,7 +19,7 @@ echo " <h1>Exercici 2 Tema Funcions i Estructures de control.</h1>";
 echo " El trampós comptarà així: ".'<br />'; 
   
 function trampos(){  
-    for($i = 0; $i <= 10; $i+=2){
+    for($i = 2; $i <= 10; $i+=2){
     echo $i .'<br />';
     }
 }
@@ -39,8 +39,8 @@ function noesdeu(){
 
 echo " <h1>Exercici 4 Tema Funcions i Estructures de control.</h1>";
 
-    function amagatall($i = 0, $n = 10){
-        for($i = 1; $i <= $n; $i++){
+    function amagatall($n = 10){
+        for($i = 0; $i <= $n; $i++){
             echo $i .'<br />';
         }
     }
